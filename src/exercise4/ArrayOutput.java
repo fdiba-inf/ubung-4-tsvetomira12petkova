@@ -10,14 +10,33 @@ public class ArrayOutput{
     int b = input.nextInt();
     System.out.println ("Geben Sie Zahlen ein: ");
     int [] zahlen = new int[b];
-    int count = 0;
-
+    
+    
+    
     for(int index = 0; index<zahlen.length; index++){
       zahlen[index] = input.nextInt();
-      
+
     }
-     count ++;
-    System.out.println ()
+       
+    for(int l = 0; l<zahlen.length; l++){
+      
+          for(int s = 0; s<l; s++ ){
+            System.out.print(" ");
+          }
+      
+     System.out.println(zahlen[l]);
+      
+
+
+    }
+    
+      
+
+      
+    
+     
+    
+    
     
   }
   
