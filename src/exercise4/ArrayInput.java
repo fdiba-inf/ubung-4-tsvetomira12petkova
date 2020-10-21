@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class ArrayInput{
   public static void main(String[] args){
     Scanner input = new Scanner (System.in);
-    System.out.println ("Geben Sie Groesse ein:");
+    System.out.println ("Geben Sie Groesse ein: ");
     int a = input.nextInt();
-    System.out.println ("Geben Sie Zahlen ein:");
+    System.out.println ("Geben Sie Zahlen ein: ");
     int [] numbers = new int[a];
     
     
